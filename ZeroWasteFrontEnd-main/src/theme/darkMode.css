@@ -1,0 +1,45 @@
+.dark-mode {
+  --ion-background-color: #2c2c2c; 
+  --ion-color: white; 
+  background-color: #2c2c2c; 
+  color: #ffffff; 
+  --background: #2c2c2c;
+}
+
+.dark-mode input,
+.dark-mode label,
+.dark-mode select,
+.dark-mode ion-label,
+.dark-mode ion-button,
+.dark-mode h1,
+.dark-mode h2,
+.dark-mode h3,
+.dark-mode h4,
+.dark-mode h5,
+.dark-mode h6,
+.dark-mode p,   
+.dark-mode form,
+.dark-mode div,
+.dark-mode a,
+.dark-mode ion-tab-bar, 
+.dark-mode ion-tab-button,
+.dark-mode ion-icon,
+.dark-mode ion-item ion-label,
+.dark-mode ion-input,
+.dark-mode ion-toggle,
+.dark-mode ion-select,
+.dark-mode ion-select-option,
+.dark-mode ion-list,
+.dark-mode ion-popover{
+  color: white; 
+  --color: white;
+}
+
+.dark-mode .label-dark-mode {
+  color: white;
+}
+
+.dark-mode input[type="time"]::-webkit-calendar-picker-indicator,
+.dark-mode input[type="date"]::-webkit-calendar-picker-indicator {
+  filter: invert(100%); 
+}

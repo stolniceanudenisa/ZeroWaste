@@ -1,0 +1,7 @@
+{
+  "name": "ZeroWasteFrontEnd",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}

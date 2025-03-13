@@ -1,0 +1,37 @@
+.green-button-gradient {
+  --background: linear-gradient(135deg, #1b8911 0%, #5cb947 100%);
+  --color: white; 
+  margin: auto;
+}
+
+.center-content-vertically {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+.img-logo{
+  width: 90vw;
+}
+
+/* Modal container */
+.ion-modal-container {
+  --background: transparent; 
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+/* Continutul modalului */
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 10px;
+  width: 80vw;
+  max-width: 400px;
+  box-shadow: 0 2px 10px rgba(94, 93, 93, 0.9);
+}

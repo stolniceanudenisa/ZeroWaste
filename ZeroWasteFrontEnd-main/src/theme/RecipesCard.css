@@ -1,0 +1,92 @@
+.recipe-card {
+  border-radius: 20px;
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  cursor: pointer;
+  margin: 10px;
+  padding: 10px;
+}
+
+.dark-mode .recipe-card {
+  background-color: #333;
+  color: white;
+}
+
+.recipe-photo {
+  width: 100%;
+  border-radius: 20px;
+  margin-bottom: 10px;
+}
+
+.recipe-title {
+  text-align: left;
+  font-size: 1.10rem;
+  /* color: black; */
+}
+
+.recipe-content{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 1rem;
+}
+
+.recipe-attributes {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 1rem;
+  justify-content: left;
+}
+
+
+.recipe-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.recipe-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+}
+
+
+.search-container ion-input {
+  margin-right: 8px;
+  border-bottom: 1px solid #ccc;
+}
+
+.filter-container {
+  display: flex;
+  align-items: center;
+  margin: 0 20px;
+  gap: 16px;
+  align-items: center;
+}
+
+
+.filter-field {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: rgba(0, 0, 0, 0.1); 
+  border-radius: 8px;
+  padding: 8px 12px; 
+  flex: 0 0 48%; 
+  box-sizing: border-box; 
+}
+
+.transparent-select {
+  --background: transparent; 
+  --padding-start: 0;
+}
+
+.transparent-select ion-select-option {
+  color: #fff; 
+}

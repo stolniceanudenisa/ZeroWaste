@@ -1,0 +1,31 @@
+.green-button {
+ --background: linear-gradient(135deg, #1b8911 0%, #5cb947 100%);
+  --color: white; 
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+  border-radius: 10px;
+  width: 80vw;
+  max-width: 400px;
+  box-shadow: 0 2px 10px rgba(94, 93, 93, 0.9);
+}
+
+.content-container {
+  --background: linear-gradient(135deg, #1b8911 0%, #5cb947 50%);
+}
+
+.title {
+  text-align: center;
+  font-family: "Amaranth", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+p{
+  text-align: justify;
+}
